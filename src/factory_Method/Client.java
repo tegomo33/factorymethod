@@ -13,7 +13,10 @@ public class Client {
 		   produitA = produitFactory.getProduitA(ProduitFactory.TYPE_PRODUITA2);
 		   produitA.methodeA();
 		   
-		   produitA = produitFactory.getProduitA(3);
+		   produitA = produitFactory.getProduitA(ProduitFactory.TYPE_PRODUITA3);
+		   produitA.methodeA();
+		   
+		   produitA = produitFactory.getProduitA(4);
 		   produitA.methodeA();
 	   }
 	
